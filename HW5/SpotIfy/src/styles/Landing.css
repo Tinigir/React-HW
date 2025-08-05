@@ -1,0 +1,65 @@
+body {
+	display: flex;
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	flex-direction: column;
+	background-color: #0C0417;
+}
+
+.landing-header{
+	padding: 55px 35px;
+	margin-bottom: 110px;
+}
+
+.spotify-logo{
+	cursor: pointer;
+}
+
+.landing-main{
+	
+	display: flex;
+	justify-content: center;
+	color: #1ED760;
+	flex-direction: column;
+	align-items: center;
+}
+
+.landing-title{
+	margin: auto;
+	font-size: 65px;
+	font-weight: 700;
+
+}
+
+.landing-text{
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.singin-buttons{
+	display: flex;
+	gap: 18px;
+	padding: 39px 56px;
+	border: 3px solid#1ED760;
+	border-radius: 65px;
+}
+
+.singin-button{
+	height: 100px;
+	width: 100px;
+	border: none;
+	border-radius: 25px;
+	background-color: #1ED760;
+	cursor: pointer;
+	transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.singin-button:hover {
+	transform: translateY(-10px) scale(1.05);
+	background-color: #1181F1;
+}
